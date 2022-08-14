@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Oyoun Academy</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/main.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/responsive.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body class="bg_gray">
+         <!-- Responsive navbar-->
+        <nav class="custom_nav_1 navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container container_center">
+                <a class="navbar-brand animate__animated animate__slideInDown" href="#"><img class="logo" src="assets/images/logo.png"></a>
+                </div>
+        </nav>
+           
+        <section id="sign_screens">
+             <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-5 col-sm-12">
+                       <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link nav_sign active" id="sign_up-tab" data-bs-toggle="tab" data-bs-target="#sign_up" type="button" role="tab" aria-controls="sign_up" aria-selected="true">Sign up</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link nav_sign" id="sign_in-tab" data-bs-toggle="tab" data-bs-target="#sign_in" type="button" role="tab" aria-controls="sign_in" aria-selected="false">Sign in</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="sign_content">
+                          <div class="tab-pane fade show active" id="sign_up" role="tabpanel" aria-labelledby="sign_up-tab">                              
+                            <div class="flex_2">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="types" id="ty1" value="1" checked>
+                                  <label for="ty1" class="form-check-label" for="flexRadioDefault1">
+                                    Individual
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="types" id="ty2" value="2">
+                                  <label for="ty2" class="form-check-label" for="flexRadioDefault2">
+                                    Enterprise
+                                  </label>
+                                </div>
+                            </div>
+                            <br>
+                            <h5>Your chance to acquire and develop the skills required for the present and the future.</h5>
+                            <form id="tab_ty1" class="type_tab">
+                                  <div class="flex_2">
+                                    <input class="form-control form-control-lg" type="text" placeholder="First Name" aria-label=".form-control-lg example">
+                                    <input class="form-control form-control-lg" type="text" placeholder="Last Name" aria-label=".form-control-lg example">
+                                  </div>
+                                  <input class="form-control form-control-lg" type="text" placeholder="Email Address" aria-label=".form-control-lg example">
+                                   <div class="input-group">
+                                      <input name="password" type="password" value="" class="input form-control form-control-lg" id="password" placeholder="Password" required="true" aria-label="password" aria-describedby="basic-addon1" />
+                                      <div class="input-group-append">
+                                        <span class="password_eye" onclick="password_show_hide();">
+                                          <i class="bi bi-eye" id="show_eye"></i>
+                                          <i class="bi bi-eye-slash d-none" id="hide_eye"></i>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  <span class="t_small">By clicking Continue, you agree to our <a href="#" class="ternary_link t_small">Terms of Use</a> and <a href="#" class="ternary_link t_small">Privacy Policy.</a></span>
+                                <div class="sign_buttons align_center">
+                                    <button type="submit" class="btn btn-xl main_button" href="sign.html">Continue</button>
+                                    <span class="t_center">Already have an account? <a href="#" class="ternary_link">Sign in.</a></span>
+                                    
+                                    <div class="social_btn flex_2">
+                                        <button type="submit" class="btn btn-xl sec_button" href="sign.html"><svg id="Group_450" data-name="Group 450" xmlns="http://www.w3.org/2000/svg" width="15.866" height="16.19" viewBox="0 0 15.866 16.19">
+                                          <path id="Path_2301" data-name="Path 2301" d="M138.321,108.416a6.937,6.937,0,0,0-.171-1.655h-7.6v3h4.461a3.956,3.956,0,0,1-1.655,2.626l-.015.1,2.4,1.862.166.017a7.915,7.915,0,0,0,2.411-5.954" transform="translate(-122.455 -100.141)" fill="#4285f4"/>
+                                          <path id="Path_2302" data-name="Path 2302" d="M21.157,162.864a7.716,7.716,0,0,0,5.361-1.961l-2.554-1.979a4.791,4.791,0,0,1-2.806.81,4.873,4.873,0,0,1-4.605-3.364l-.095.008-2.5,1.934-.033.091a8.089,8.089,0,0,0,7.232,4.461" transform="translate(-13.062 -146.674)" fill="#34a853"/>
+                                          <path id="Path_2303" data-name="Path 2303" d="M3.49,76.586a4.984,4.984,0,0,1-.27-1.6,5.237,5.237,0,0,1,.261-1.6l0-.107L.946,71.312l-.083.039a8.078,8.078,0,0,0,0,7.268L3.49,76.586" transform="translate(0 -66.89)" fill="#fbbc05"/>
+                                          <path id="Path_2304" data-name="Path 2304" d="M21.157,3.13a4.487,4.487,0,0,1,3.13,1.205L26.571,2.1A7.778,7.778,0,0,0,21.157,0a8.089,8.089,0,0,0-7.232,4.461l2.617,2.033A4.893,4.893,0,0,1,21.157,3.13" transform="translate(-13.062)" fill="#eb4335"/>
+                                        </svg> Google</button>
+                                        <button type="submit" class="btn btn-xl sec_button" href="sign.html"><svg id="Group_451" data-name="Group 451" xmlns="http://www.w3.org/2000/svg" width="16.368" height="16.368" viewBox="0 0 16.368 16.368">
+                                          <path id="Path_2305" data-name="Path 2305" d="M16.368,8.184a8.184,8.184,0,1,0-9.463,8.085V10.55H4.827V8.184H6.905v-1.8A2.888,2.888,0,0,1,10,3.2a12.585,12.585,0,0,1,1.832.16V5.371H10.8A1.183,1.183,0,0,0,9.463,6.649V8.184h2.27L11.37,10.55H9.463v5.719A8.186,8.186,0,0,0,16.368,8.184Z" fill="#1877f2"/>
+                                          <path id="Path_2306" data-name="Path 2306" d="M308.542,207.353l.363-2.366h-2.27v-1.535a1.183,1.183,0,0,1,1.334-1.278H309V200.16a12.586,12.586,0,0,0-1.832-.16,2.888,2.888,0,0,0-3.091,3.184v1.8H302v2.366h2.078v5.719a8.271,8.271,0,0,0,2.558,0v-5.719Z" transform="translate(-297.173 -196.803)" fill="#fff"/>
+                                        </svg> Facebook</button>
+                                    </div>
+                                </div>
+                                 
+                              </form>
+                            
+                            <form id="tab_ty2" class="type_tab" style="display: none;">
+                                <div class="flex_2">
+                                  <input class="form-control form-control-lg" type="text" placeholder="First Name" aria-label=".form-control-lg example">
+                                  <input class="form-control form-control-lg" type="text" placeholder="Last Name" aria-label=".form-control-lg example">
+                                </div>
+                                <div class="flex_2">
+                                  <input class="form-control form-control-lg" type="text" placeholder="Company name" aria-label=".form-control-lg example">
+                                  <input class="form-control form-control-lg" type="text" placeholder="Manager Name" aria-label=".form-control-lg example">
+                                </div>
+                                <div class="flex_2">
+                                  <input class="form-control form-control-lg" type="text" placeholder="Company phone" aria-label=".form-control-lg example">
+                                  <input class="form-control form-control-lg" type="text" placeholder="Number of Employees" aria-label=".form-control-lg example">
+                                </div>
+                                <input class="form-control form-control-lg" type="text" placeholder="Email Address" aria-label=".form-control-lg example">
+                                 <div class="input-group">
+                                    <input name="password" type="password" value="" class="input form-control form-control-lg" id="password" placeholder="Password" required="true" aria-label="password" aria-describedby="basic-addon1" />
+                                    <div class="input-group-append">
+                                      <span class="password_eye" onclick="password_show_hide3();">
+                                        <i class="bi bi-eye" id="show_eye3"></i>
+                                        <i class="bi bi-eye-slash d-none" id="hide_eye3"></i>
+                                      </span>
+                                    </div>
+                                  </div>
+                                <span class="t_small">By clicking Continue, you agree to our <a href="#" class="ternary_link t_small">Terms of Use</a> and <a href="#" class="ternary_link t_small">Privacy Policy.</a></span>
+                              <div class="sign_buttons align_center">
+                                  <button type="submit" class="btn btn-xl main_button" href="sign.html">Continue</button>
+                                  <span class="t_center">Already have an account? <a href="#" class="ternary_link">Sign in.</a></span>
+                                  
+                                  <div class="social_btn flex_2">
+                                      <button type="submit" class="btn btn-xl sec_button" href="sign.html"><svg id="Group_450" data-name="Group 450" xmlns="http://www.w3.org/2000/svg" width="15.866" height="16.19" viewBox="0 0 15.866 16.19">
+                                        <path id="Path_2301" data-name="Path 2301" d="M138.321,108.416a6.937,6.937,0,0,0-.171-1.655h-7.6v3h4.461a3.956,3.956,0,0,1-1.655,2.626l-.015.1,2.4,1.862.166.017a7.915,7.915,0,0,0,2.411-5.954" transform="translate(-122.455 -100.141)" fill="#4285f4"/>
+                                        <path id="Path_2302" data-name="Path 2302" d="M21.157,162.864a7.716,7.716,0,0,0,5.361-1.961l-2.554-1.979a4.791,4.791,0,0,1-2.806.81,4.873,4.873,0,0,1-4.605-3.364l-.095.008-2.5,1.934-.033.091a8.089,8.089,0,0,0,7.232,4.461" transform="translate(-13.062 -146.674)" fill="#34a853"/>
+                                        <path id="Path_2303" data-name="Path 2303" d="M3.49,76.586a4.984,4.984,0,0,1-.27-1.6,5.237,5.237,0,0,1,.261-1.6l0-.107L.946,71.312l-.083.039a8.078,8.078,0,0,0,0,7.268L3.49,76.586" transform="translate(0 -66.89)" fill="#fbbc05"/>
+                                        <path id="Path_2304" data-name="Path 2304" d="M21.157,3.13a4.487,4.487,0,0,1,3.13,1.205L26.571,2.1A7.778,7.778,0,0,0,21.157,0a8.089,8.089,0,0,0-7.232,4.461l2.617,2.033A4.893,4.893,0,0,1,21.157,3.13" transform="translate(-13.062)" fill="#eb4335"/>
+                                      </svg> Google</button>
+                                      <button type="submit" class="btn btn-xl sec_button" href="sign.html"><svg id="Group_451" data-name="Group 451" xmlns="http://www.w3.org/2000/svg" width="16.368" height="16.368" viewBox="0 0 16.368 16.368">
+                                        <path id="Path_2305" data-name="Path 2305" d="M16.368,8.184a8.184,8.184,0,1,0-9.463,8.085V10.55H4.827V8.184H6.905v-1.8A2.888,2.888,0,0,1,10,3.2a12.585,12.585,0,0,1,1.832.16V5.371H10.8A1.183,1.183,0,0,0,9.463,6.649V8.184h2.27L11.37,10.55H9.463v5.719A8.186,8.186,0,0,0,16.368,8.184Z" fill="#1877f2"/>
+                                        <path id="Path_2306" data-name="Path 2306" d="M308.542,207.353l.363-2.366h-2.27v-1.535a1.183,1.183,0,0,1,1.334-1.278H309V200.16a12.586,12.586,0,0,0-1.832-.16,2.888,2.888,0,0,0-3.091,3.184v1.8H302v2.366h2.078v5.719a8.271,8.271,0,0,0,2.558,0v-5.719Z" transform="translate(-297.173 -196.803)" fill="#fff"/>
+                                      </svg> Facebook</button>
+                                  </div>
+                              </div>
+                               
+                            </form>
+                          
+                            </div>
+                          <div class="tab-pane fade" id="sign_in" role="tabpanel" aria-labelledby="sign_in-tab">
+                            <h3>Log In To Your Account.</h3>
+                            <h5>Education for a better career.</h5>
+                            <form>
+                                  <input class="form-control form-control-lg" type="text" placeholder="Email Address" aria-label=".form-control-lg example">
+                                    <div class="input-group">
+                                      <input name="password" type="password" value="" class="input form-control form-control-lg" id="password2" placeholder="Password" required="true" aria-label="password" aria-describedby="basic-addon1" />
+                                      <div class="input-group-append">
+                                        <span class="password_eye" onclick="password_show_hide2();">
+                                          <i class="bi bi-eye" id="show_eye2"></i>
+                                          <i class="bi bi-eye-slash d-none" id="hide_eye2"></i>
+                                        </span>
+                                      </div>
+                                    </div>                                  
+                                    <span class="t_center">Forgot your password? <a href="#" class="ternary_link">Reset It</a></span>
+
+                                <div class="sign_buttons align_center">
+                                    <button type="submit" class="btn btn-xl main_button" href="sign.html">Continue</button>
+                                    <span class="t_small">By clicking Continue, you agree to our <a href="#" class="ternary_link t_small">Terms of Use</a> and <a href="#" class="ternary_link t_small">Privacy Policy.</a></span>
+                                    
+                                    <div class="social_btn flex_2">
+                                        <button type="submit" class="btn btn-xl sec_button" href="sign.html"><svg id="Group_450" data-name="Group 450" xmlns="http://www.w3.org/2000/svg" width="15.866" height="16.19" viewBox="0 0 15.866 16.19">
+                                          <path id="Path_2301" data-name="Path 2301" d="M138.321,108.416a6.937,6.937,0,0,0-.171-1.655h-7.6v3h4.461a3.956,3.956,0,0,1-1.655,2.626l-.015.1,2.4,1.862.166.017a7.915,7.915,0,0,0,2.411-5.954" transform="translate(-122.455 -100.141)" fill="#4285f4"/>
+                                          <path id="Path_2302" data-name="Path 2302" d="M21.157,162.864a7.716,7.716,0,0,0,5.361-1.961l-2.554-1.979a4.791,4.791,0,0,1-2.806.81,4.873,4.873,0,0,1-4.605-3.364l-.095.008-2.5,1.934-.033.091a8.089,8.089,0,0,0,7.232,4.461" transform="translate(-13.062 -146.674)" fill="#34a853"/>
+                                          <path id="Path_2303" data-name="Path 2303" d="M3.49,76.586a4.984,4.984,0,0,1-.27-1.6,5.237,5.237,0,0,1,.261-1.6l0-.107L.946,71.312l-.083.039a8.078,8.078,0,0,0,0,7.268L3.49,76.586" transform="translate(0 -66.89)" fill="#fbbc05"/>
+                                          <path id="Path_2304" data-name="Path 2304" d="M21.157,3.13a4.487,4.487,0,0,1,3.13,1.205L26.571,2.1A7.778,7.778,0,0,0,21.157,0a8.089,8.089,0,0,0-7.232,4.461l2.617,2.033A4.893,4.893,0,0,1,21.157,3.13" transform="translate(-13.062)" fill="#eb4335"/>
+                                        </svg> Google</button>
+                                        <button type="submit" class="btn btn-xl sec_button" href="sign.html"><svg id="Group_451" data-name="Group 451" xmlns="http://www.w3.org/2000/svg" width="16.368" height="16.368" viewBox="0 0 16.368 16.368">
+                                          <path id="Path_2305" data-name="Path 2305" d="M16.368,8.184a8.184,8.184,0,1,0-9.463,8.085V10.55H4.827V8.184H6.905v-1.8A2.888,2.888,0,0,1,10,3.2a12.585,12.585,0,0,1,1.832.16V5.371H10.8A1.183,1.183,0,0,0,9.463,6.649V8.184h2.27L11.37,10.55H9.463v5.719A8.186,8.186,0,0,0,16.368,8.184Z" fill="#1877f2"/>
+                                          <path id="Path_2306" data-name="Path 2306" d="M308.542,207.353l.363-2.366h-2.27v-1.535a1.183,1.183,0,0,1,1.334-1.278H309V200.16a12.586,12.586,0,0,0-1.832-.16,2.888,2.888,0,0,0-3.091,3.184v1.8H302v2.366h2.078v5.719a8.271,8.271,0,0,0,2.558,0v-5.719Z" transform="translate(-297.173 -196.803)" fill="#fff"/>
+                                        </svg> Facebook</button>
+                                    </div>
+                                </div>
+                                 
+                              </form>
+                            
+                            
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+        </section>
+        
+       
+        <!-- JQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Bootstrap popover JS-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        
+        <!-- Development version -->
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+        <!-- Production version -->
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+        <!-- Slick JS-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $('#carousel_slick').slick({
+                  infinite: true,
+                  slidesToShow: 4,
+                  centerMode: true,
+                  slidesToScroll: 1,
+                  arrows: false,
+                  autoplay: true,
+                  autoplaySpeed: 3000,
+                  draggable: true,
+                  focusOnSelect: true,
+                  touchMove: true,
+                    responsive: [
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                      }
+                    },
+                    {
+                      breakpoint: 600,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    }
+                    
+                  ]
+                });
+            });
+        </script>
+        
+        <script>
+            function password_show_hide() {
+              var x = document.getElementById("password");
+              var show_eye = document.getElementById("show_eye");
+              var hide_eye = document.getElementById("hide_eye");
+              hide_eye.classList.remove("d-none");
+              if (x.type === "password") {
+                x.type = "text";
+                show_eye.style.display = "none";
+                hide_eye.style.display = "block";
+              } else {
+                x.type = "password";
+                show_eye.style.display = "block";
+                hide_eye.style.display = "none";
+              }
+            }
+            function password_show_hide2() {
+              var x = document.getElementById("password2");
+              var show_eye = document.getElementById("show_eye2");
+              var hide_eye = document.getElementById("hide_eye2");
+              hide_eye.classList.remove("d-none");
+              if (x.type === "password") {
+                x.type = "text";
+                show_eye.style.display = "none";
+                hide_eye.style.display = "block";
+              } else {
+                x.type = "password";
+                show_eye.style.display = "block";
+                hide_eye.style.display = "none";
+              }
+            }
+            function password_show_hide3() {
+              var x = document.getElementById("password2");
+              var show_eye = document.getElementById("show_eye3");
+              var hide_eye = document.getElementById("hide_eye3");
+              hide_eye.classList.remove("d-none");
+              if (x.type === "password") {
+                x.type = "text";
+                show_eye.style.display = "none";
+                hide_eye.style.display = "block";
+              } else {
+                x.type = "password";
+                show_eye.style.display = "block";
+                hide_eye.style.display = "none";
+              }
+            }
+        </script>
+
+        <script>
+          $(document).ready(function() {
+            $("input[name='types']").click(function() {
+              if ($("#ty1").is(":checked")) {
+                $("#tab_ty1").show();
+              } else {
+                $("#tab_ty1").hide();
+              }
+              if ($("#ty2").is(":checked")) {
+                $("#tab_ty2").show();
+              } else {
+                $("#tab_ty2").hide();
+              }
+
+            });
+          });
+
+
+        </script>
+        
+    </body>
+</html>
