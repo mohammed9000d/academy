@@ -266,6 +266,20 @@
         margin-top: 60px;
     }
 
+    .bord {
+        height: 40px;
+        width: 40px;
+        margin-bottom: 14px;
+      }
+
+      .course-vedio i {
+        font-size: 20px;
+      }
+
+      .course-vedio a p {
+        font-size: 14px;
+      }
+
 
 }
 
@@ -391,6 +405,24 @@
             padding-top: 100px;
         }
 
+        #course-lesson .page-items .right {
+            margin-left: 0px !important;
+        }
+
+        .bord {
+            height: 60px;
+            width: 60px;
+            margin-bottom: 16px;
+          }
+
+          .course-vedio i {
+            font-size: 28px;
+          }
+
+          .course-vedio a p {
+            font-size: 16px;
+          }
+
 }
 
 /*// Large devices (desktops, less than 1200px)*/
@@ -402,8 +434,115 @@
 }
 
 /*// X-Large devices (large desktops, less than 1400px)*/
-@media (max-width: 1399.98px) { 
-    
+@media (max-width: 1600.98px) { 
+    #course-lesson .page-items .right .container {
+        max-width: 850px !important;
+        padding-top: 40px;
+    }
+
+
+    #course-lesson .page-items .right {
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+
+
+    #course-lesson .page-items .left-web .left-head h3 {
+        font-size: 20px;
+    }
+
+    #course-lesson .page-items .left .lessons .lesson-items .lesson-item h6 {
+        font-size: 10px;
+    }
+    #course-lesson .page-items .left-web {
+        width: 300px;
+    }
+    #course-lesson .page-items .left .lessons .lesson-items .lesson-item .lesson-details .lesson-title p a {
+        font-size: 11px;
+    }
+    #course-lesson .page-items .left .lessons .lesson-items .lesson-item .lesson-details .lesson-image img {
+        width: 60px;
+        height: 60px;
+    }
+    #course-lesson .page-items .left .lessons .lesson-items .lesson-item .lesson-details .lesson-title .time p {
+        font-size: 12px;
+    }
+
+    #course-lesson .page-items .left .lessons .lesson-items .lesson-item .lesson-details .lesson-title .time .count {
+        align-items: center;
+    }
+
+    /**/
+
+    .description .desc-head h3 {
+        font-size: 20px;
+    }
+
+    .description .desc-head p {
+        font-size: 14px;
+    }
+
+    #course-lesson .page-items .right .details .tabs .nav li a {
+        font-size: 12px;
+    }
+
+    .list-title {
+        font-size: 16px;
+    }
+
+    #course-lesson .page-items .right .details .tabs .tab-content .tab-desc {
+        font-size: 14px;
+    }
+    .tab-list li {
+        font-size: 14px;
+    }
+    .mark-list .mark-list-child p {
+        font-size: 14px;
+    }
+    .step-lesson nav a {
+        font-size: 12px;
+    }
+
+    #course-lesson .page-items .right .details .step-lesson .tab-content .t-items .t-item .t-title h5 a {
+        font-size: 12px !important;
+    }
+    #course-lesson .page-items .right .details .step-lesson .tab-content .t-items .t-item .t-title .box {
+        font-size: 12px;
+    }
+
+    #course-lesson .page-items .right .details .step-lesson .tab-content .t-items .t-item .t-title .box-1 {
+        font-size: 12px;
+    }
+    #course-lesson .page-items .right .details .step-lesson .tab-content .t-items .t-item p {
+        font-size: 10px;
+    }
+
+    #course-lesson .page-items .left .search input::placeholder {
+        font-size: 12px;
+    }
+
+    /* VIDEO OVERLAY */
+
+    .bord {
+        height: 60px;
+        width: 60px;
+        margin-bottom: 16px;
+      }
+
+      .course-vedio i {
+        font-size: 28px;
+      }
+
+      .course-vedio a p {
+        font-size: 16px;
+      }
+
+      /**/
+
+      .brochure-fill {
+        padding: 10px 22px;
+        font-size: 12px;
+    }
 }
 
 /*// XX-Large devices (larger desktops)*/

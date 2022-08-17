@@ -643,7 +643,7 @@
                           </div>
                         </div>
   
-                        <div class="lesson-item">
+                        <div class="lesson-item lesson-disabled">
                           <h6>LESSON 2</h6>
                           <div class="lesson-details">
                             <div class="lesson-image">
@@ -688,7 +688,7 @@
                           </div>
                         </div>
   
-                        <div class="lesson-item">
+                        <div class="lesson-item lesson-disabled">
                           <h6>LESSON 3</h6>
                           <div class="lesson-details">
                             <div class="lesson-image">
@@ -734,7 +734,7 @@
                           </div>
                         </div>
 
-                        <div class="lesson-item">
+                        <div class="lesson-item lesson-disabled">
                           <h6>LESSON 4</h6>
                           <div class="lesson-details">
                             <div class="lesson-image">
@@ -777,7 +777,7 @@
                           </div>
                         </div>
   
-                        <div class="lesson-item">
+                        <div class="lesson-item lesson-disabled">
                           <h6>LESSON 4</h6>
                           <div class="lesson-details">
                             <div class="lesson-image">
@@ -819,7 +819,7 @@
                           </div>
                         </div>
 
-                        <div class="lesson-item">
+                        <div class="lesson-item lesson-disabled">
                           <h6>LESSON 4</h6>
                           <div class="lesson-details">
                             <div class="lesson-image">
@@ -861,7 +861,7 @@
                           </div>
                         </div>
 
-                        <div class="lesson-item">
+                        <div class="lesson-item lesson-disabled">
                           <h6>LESSON 4</h6>
                           <div class="lesson-details">
                             <div class="lesson-image">
@@ -903,7 +903,7 @@
                           </div>
                         </div>
 
-                        <div class="lesson-item">
+                        <div class="lesson-item lesson-disabled">
                           <h6>LESSON 4</h6>
                           <div class="lesson-details">
                             <div class="lesson-image">
@@ -945,7 +945,7 @@
                           </div>
                         </div>
 
-                        <div class="lesson-item">
+                        <div class="lesson-item lesson-disabled">
                           <h6>LESSON 4</h6>
                           <div class="lesson-details">
                             <div class="lesson-image">
@@ -997,8 +997,28 @@
 
                     <div class="course-vedio">
                       <video width="400" controls>
-                        <source src="assets/images/vvv.mp4" type="video/mp4">
+                        <source src="assets/images/vv.mp4" type="video/mp4">
                       </video>
+                      <div class="overlay">
+                        <div class="video-icons">
+                          <a href="#">
+                            <div class="replay">
+                              <div class="bord">
+                                <i class="bi bi-arrow-counterclockwise"></i>
+                              </div>
+                              <p>Replay</p>
+                            </div>
+                          </a>
+                          <a href="#">
+                            <div class="video-next">
+                              <div class="bord">
+                                <i class="bi bi-fast-forward"></i>
+                              </div>
+                              <p>Watch next</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>                      
                     </div>
                       <!-- <img src="assets/images/c3.png" alt="course image"> -->
                       <div class="details">
@@ -1118,6 +1138,12 @@
                                         <p class="mark-text">Why is Digital Marketing Important</p>
                                       </div>
                                   </div>
+
+                                  <a href="#" class="brochure-fill mt-4">
+                                    <div class="flexable">
+                                        <span>NEXT CONCEPT</span>     
+                                    </div>
+                                  </a>
 
                                 </div>
                                 <div class="tab-pane fade" id="pills-resources" role="tabpanel" aria-labelledby="pills-resources-tab">
@@ -1239,11 +1265,13 @@
                                       </div>
                                       <h5>
                                         <a href="#">
-                                          Introduction
+                                          Introduction 
                                         </a>
                                       </h5>
                                     </div>
-                                    <p class="time">13:12</p>
+                                    <p class="time">
+                                      <span class="live-icon"></span>
+                                    </p>
                                   </div>
 
                                   <div class="t-item">
@@ -1319,12 +1347,12 @@
                                   <div class="t-item">
                                     <div class="t-title">
                                       <div class="box-2">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="12.468" height="14.249" viewBox="0 0 12.468 14.249">
+                                          <svg  xmlns="http://www.w3.org/2000/svg" width="12.468" height="14.249" viewBox="0 0 12.468 14.249">
                                             <path id="Icon_awesome-lock" data-name="Icon awesome-lock" d="M11.132,6.234h-.668v-2A4.23,4.23,0,0,0,2,4.23v2H1.336A1.336,1.336,0,0,0,0,7.57v5.343a1.336,1.336,0,0,0,1.336,1.336h9.8a1.336,1.336,0,0,0,1.336-1.336V7.57A1.336,1.336,0,0,0,11.132,6.234Zm-2.894,0H4.23v-2a2,2,0,1,1,4.007,0Z" fill="#fff"/>
                                           </svg>
                                       </div>
                                       <h5>
-                                        <a href="#">
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="You must complete the current topic in order to continue to the next topic">
                                           Illustration Type
                                         </a>
                                       </h5>
@@ -1599,6 +1627,12 @@
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+  </script>
+  <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
   </script>
   </body>
 </html>
