@@ -280,6 +280,10 @@
         font-size: 14px;
       }
 
+      span.live-icon {
+        position: relative !important;
+      }
+
 
 }
 
@@ -360,6 +364,21 @@
         }
 
         .n-nav span {
+            margin-left: 10px;
+        }
+
+        .n-nav a:hover {
+            color:#B9B9B9 !important;
+        }
+
+
+        .s-nav {
+            border-bottom: #fff 1px solid;
+            margin-right: 0px;
+        }
+    
+        .s-nav span {
+            display: block;
             margin-left: 10px;
         }
         
@@ -521,6 +540,115 @@
         font-size: 12px;
     }
 
+
+
+    /* //// sign page section  //// */
+
+
+.bg_gray{
+    background: #FAFAFA;
+    margin-top: 0 !important;
+}
+.bg_gray2{
+    background: #FAFAFA;
+}
+.custom_nav_1{
+    height: 60px;
+    margin-bottom: 20px;
+}
+body .container_center{
+    justify-content: center !important;
+}
+#sign_screens{
+    margin-bottom: 65px;   
+}
+#sign_up{
+    padding: 50px 40px;
+    background-color: #FFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#sign_in{
+    padding: 50px 60px;
+    background-color: #FFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.custom_nav_1 .logo {
+    width: 100px;
+}
+
+
+
+
+
+#sign_content h3{
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+#sign_content h5 {
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+#sign_content input[type="text"]{
+    font-size: 14px;
+    padding: 12px 17px;
+}
+#sign_content input[type="password"]{
+    font-size: 14px;
+    padding: 12px 17px;
+}
+
+.flex_2{
+    display: flex;
+    gap: 15px;
+    align-content: space-between;
+    align-items: center
+}
+#sign_content .main_button{
+    min-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+body .nav_sign{
+    font-size: 16px !important;
+}
+.t_small{
+    font-size: 11px;
+}
+.social_btn{
+    margin-top: 20px;
+}
+.password_eye{
+    font-size: 18px;
+}
+
+.ternary_link {
+    font-size: 12px;
+}
+
+body .sec_button {
+    font-size: 16px;
+    padding: 12px 30px;
+}
+
+.t-center {
+    font-size: 12px;
+}
+
+.col-md-5 {
+    flex: 0 0 auto;
+    width: 36.66666667%;
+}
+
+.form-check label {
+    font-size: 14px;
+}
+
+
     /* VIDEO OVERLAY */
 
     .bord {
@@ -542,6 +670,11 @@
       .brochure-fill {
         padding: 10px 22px;
         font-size: 12px;
+    }
+
+    .mySlides img {
+        height: 70vh;
+        object-fit: cover;
     }
 }
 
