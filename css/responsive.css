@@ -284,6 +284,15 @@
         position: relative !important;
       }
 
+      .mySlides img {
+        height: 30vh !important;
+        object-fit: cover;
+    }
+
+    .c3-media img {
+        height: 100px !important;
+    }
+
 
 }
 
