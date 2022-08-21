@@ -2301,7 +2301,7 @@ video {
         }
       }
       #backg {
-        background: rgb(0 0 0 / 22%);
+        background: rgba(0, 0, 0, 0.6);
         z-index: 5000;
         position: absolute;
         top: 0;
@@ -2404,6 +2404,8 @@ video {
         -webkit-animation-fill-mode: forwards;
         -moz-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
+        left: 33px;
+        top: 81px;
       }
       
       .checkmark-circle .checkmark:after {
