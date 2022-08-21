@@ -549,6 +549,19 @@
         font-size: 12px;
     }
 
+    .navbar {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    body .nav-link {
+        font-size: 16px;
+    }
+
+    .new-logo {
+        width: 90px;
+        height: 27px;
+    }
 
 
     /* //// sign page section  //// */
