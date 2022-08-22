@@ -293,6 +293,48 @@
         height: 100px !important;
     }
 
+        /* NOTIFICATION PAGE */
+
+        .noti-head {
+            padding-top: 10px;
+            margin-bottom: 35px;
+        }
+    
+        .noti-head h3 {
+            font-size: 18px;
+        }
+    
+        .noti-head p {
+            font-size: 12px;
+        }
+    
+        .noti-item {
+            grid-template-columns: 1fr;
+        }
+    
+        .noti-item .noti-time h6 {
+            font-size: 12px;
+        }
+    
+        .noti-item .noti-time p {
+            font-size: 10px;
+        }
+
+        .noti-item .noti-icon {
+            margin-bottom: 10px;
+        }
+    
+        .noti-item .noti-icon .icon-box {
+            height: 40px;
+            width: 40px;
+            margin-right: 12px;
+        }
+    
+        .noti-body .noti-content {
+            font-size: 12px;
+    
+        }
+
 
 }
 
@@ -698,6 +740,95 @@ body .sec_button {
         height: 70vh;
         object-fit: cover;
     }
+
+    #course-lesson {
+        margin-left: 70px;
+        margin-top: -58px;
+    }
+
+    /* CARD EDIT */
+
+    body .course_card h5{
+        font-size: 18px;
+    }
+    body .course_card p{
+        color: #B9B9B9;
+        font-size: 14px;
+    }
+    body .course_card a{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+
+    .items .item .course_card img {
+        height: 160px;
+        object-fit: cover;
+    }
+
+    /* DETAILS PAGE */
+
+    #details-content {
+        margin-top: -20px;
+    }
+
+    #details-content .container {
+        max-width: 850px;
+
+    }
+
+    #details-content .description .desc-body .para h4 {
+        font-size: 16px;
+    }
+
+    #details-content .description .desc-body .para p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .brochure {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+
+    /* NOTIFICATION PAGE */
+
+    .noti-head {
+        padding-top: 12px;
+    }
+
+    .noti-head h3 {
+        font-size: 20px;
+    }
+
+    .noti-head p {
+        font-size: 14px;
+    }
+
+    .noti-item .noti-time h6 {
+        font-size: 12px;
+    }
+
+    .noti-item .noti-time p {
+        font-size: 12px;
+    }
+
+    .noti-item .noti-icon {
+        margin-bottom: 12px;
+    }
+
+    .noti-item .noti-icon .icon-box {
+        height: 40px;
+        width: 40px;
+        margin-right: 12px;
+    }
+
+    .noti-body .noti-content {
+        font-size: 12px;
+    }
+
+
 }
 
 /*// XX-Large devices (larger desktops)*/
