@@ -2883,7 +2883,13 @@ video {
         transition: all .3s ease;
       }
 
-
+      .user-modal {
+        top: 90px;
+      }
+      
+      .company-modal {
+        top: 180px;
+      }
 
 
     
