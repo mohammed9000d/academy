@@ -940,11 +940,11 @@ body #courses_page .card .card-header .title{
 }
 
 #details-content .container {
-    max-width: 1007px;
+    max-width: 1200px;
 }
 #details-content img {
     width: 100%;
-    height: 50vh;
+    height: 65vh;
     border-radius: 25px;
 }
 
@@ -1276,7 +1276,7 @@ height: 440px; */
 }
 
 #course-lesson .page-items .right .container {
-    max-width: 1000px !important;
+    max-width: 1200px !important;
     padding-top: 40px;
 }
 
@@ -2701,6 +2701,7 @@ video {
         padding-top: 15px;
         padding-bottom: 15px;
         padding-left: 57px;
+        padding-right: 57px;
         background-color: rgba(250, 250, 250, 0.17);
         border: none;
         border-radius: 26px;
@@ -2714,6 +2715,11 @@ video {
 
     .hero-category .items .hero-right input::placeholder {
         color: #92929D;
+    }
+
+
+    .category-slider {
+        margin-bottom: 70px;
     }
 
 
@@ -2744,6 +2750,62 @@ video {
         top:154px;
         right:-20px;
     }
+
+
+    /**/
+
+    /* .cat-none {
+        display: none;
+    } */
+
+    .category-slider .category-tabs {
+        padding: 15px;
+        border-bottom: #F1F1F5 solid 1px;
+    }
+
+    .category-slider .category-tabs a{
+        color: #92929D;
+        font-size: 14px;
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: 700;
+        padding-bottom: 15px;
+        /* margin-bottom: 0px; */
+    }
+
+    .category-slider .category-tabs .active {
+        color: #44444F;
+        border-bottom: 2px solid #44444F;
+    }
+
+    .category-tab-content #one,
+    .category-tab-content #two,
+    .category-tab-content #three {
+        display: none;
+    }
+    
+
+    .category-tab-content .show {
+        display: block !important;
+    }
+
+    .tabcontent {
+        animation: fadeEffect 0.5s forwards; /* Fading effect takes 1 second */
+      }
+      
+      
+      .link-disabled {
+        pointer-events: none;
+        opacity: 0.4;
+      }
+
+      /* Go from zero to full opacity */
+      @keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+
+
 
     
 

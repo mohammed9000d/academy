@@ -195,6 +195,23 @@
     #course-lesson .page-items .right .details .tabs .nav{
         grid-gap: 0rem;
     }
+
+    .hero-category .items {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hero-category .items .hero-right input {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 48px;
+    }
+
+    .hero-category .items .hero-right a {
+        top: 10px;
+    }
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
@@ -333,6 +350,29 @@
         .noti-body .noti-content {
             font-size: 12px;
     
+        }
+
+        /* CATEGORY PAGE */
+
+        #category-sec {
+            margin-bottom: 30px;
+            margin-top: 76px;
+        }
+
+        .hero-category .items .hero-left h1 {
+            font-size: 28px;
+        }
+        .s-prev, .s-next {
+            height: 40px;
+            width: 40px;
+        }
+
+        .s-prev {
+            left:-10px;
+        }
+    
+        .s-next {
+            right:-10px;
         }
 
 
@@ -777,6 +817,12 @@ body .sec_button {
 
     }
 
+    #details-content img {
+        width: 100%;
+        height: 55vh;
+        border-radius: 25px;
+    }
+
     #details-content .description .desc-body .para h4 {
         font-size: 16px;
     }
@@ -826,6 +872,11 @@ body .sec_button {
 
     .noti-body .noti-content {
         font-size: 12px;
+    }
+
+    #category-sec {
+        margin-bottom: 30px;
+        margin-top: -43px;
     }
 
 
