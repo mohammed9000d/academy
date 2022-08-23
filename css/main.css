@@ -869,9 +869,9 @@ body #courses_page .card .card-header .title{
     margin-top: 30px;
 }
 
-#new-aside .aside-items .aside-item {
+/* #new-aside .aside-items .aside-item {
     
-}
+} */
 
 #new-aside .aside-items .aside-item .item{
     padding: 15px 25px;
@@ -921,9 +921,9 @@ body #courses_page .card .card-header .title{
     grid-gap: 2rem;
 }
 
-#new-content .items .item {
+/* #new-content .items .item {
 
-}
+} */
 
 .items .item .course_card {
     border: none;
@@ -996,9 +996,9 @@ body #courses_page .card .card-header .title{
     color: #50B5FF;
 }
 
-#details-content .description .desc-body {
-    /* margin-bottom: 10px; */
-}
+/* #details-content .description .desc-body {
+    margin-bottom: 10px;
+} */
 
 #details-content .description .desc-body .para {
     margin-bottom: 30px;
@@ -1078,10 +1078,10 @@ body #courses_page .card .card-header .title{
     margin-top: -42px;
 }
 
-#course-lesson .page-items {
-    /* display: grid; */
-    /* grid-template-columns: 1fr 4fr; */
-}
+/* #course-lesson .page-items {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+} */
 
 #course-lesson .page-items .left-web {
     background-color: #FFFFFF;
@@ -2094,9 +2094,9 @@ video {
         overflow-y: scroll !important;
     }
 
-    .message-center {
-        /* overflow-y: scroll; */
-    }
+    /* .message-center {
+        overflow-y: scroll;
+    } */
 
     .message-center a {
         border-bottom: 1px solid rgba(120, 130, 140, 0.13);
