@@ -760,8 +760,8 @@ body #courses_page .card{
     /* padding: 0 !important; */
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 0.25rem;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: 10px;
 }
 body #courses_page .card .card-body {
     -webkit-box-flex: 1;
@@ -1633,8 +1633,26 @@ height: 440px; */
 .details .step-lesson .tab-content 
 .t-items .t-item p {
     color: #92929D;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 0px;
+}
+
+#course-lesson .page-items .right 
+.details .step-lesson .tab-content 
+.t-items .t-item .completed {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #789505;
+    margin-top: 2px;
+}
+
+#course-lesson .page-items .right 
+.details .step-lesson .tab-content 
+.t-items .t-item .activated {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(73, 64, 255);
+    margin-top: 2px;
 }
 
 #course-lesson .page-items .right 
@@ -1809,7 +1827,7 @@ video {
   .c3-media img {
     border-radius: 20px;
     width: 100%;
-    height: 155px;
+    height: 200px;
     object-fit: cover;
 }
   .c-modal {
@@ -2804,6 +2822,67 @@ video {
         from {opacity: 0;}
         to {opacity: 1;}
       }
+
+
+      /* RESOURCES SECTION */
+
+      .download-bro {
+        padding: 10px;
+      }
+
+      .download-bro a {
+        text-decoration: none;
+        color: #44444F;
+        transition: all .5s ease;
+      }
+
+      .download-bro a:hover .down-item{
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      }
+
+      .download-bro a:hover .down-item .icon-h{
+        color: #2015FF;
+      }
+
+      .download-bro a:hover .down-item p{
+        color: #2015FF;
+      }
+      
+      .download-bro .down-item {
+        padding: 15px 25px;
+        background-color: rgba(32,21,255,.02);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: all .5s ease;
+        margin-bottom: 20px;
+      }
+
+      .download-bro .down-item .item-r {
+        display: flex;
+        align-items: center;
+      }
+
+      .download-bro .down-item i {
+        font-size: 24px;
+        transition: all .3s ease;
+
+      }
+      .download-bro .down-item .icon-c {
+        color: #f40f02;
+      }
+
+      .download-bro .down-item p {
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 16px;
+        color: #44444F;
+        margin-left: 20px;
+        transition: all .3s ease;
+      }
+
 
 
 

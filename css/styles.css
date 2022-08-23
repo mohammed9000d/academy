@@ -4616,6 +4616,7 @@ textarea.form-control-lg {
 .card-img-top {
   height: 160px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .card-group > .card {
