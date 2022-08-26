@@ -212,6 +212,53 @@
     .hero-category .items .hero-right a {
         top: 10px;
     }
+
+    /* PROFILE PAGE */
+
+    #profile {
+        padding: 30px;
+        margin-left: 0px;
+        padding-top: 0;
+        margin-top: -25px;
+      }
+
+      #profile .profile-items {
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
+      }
+
+      .presonal-inform ul li {
+        width: 100%;
+        color: #BDEA09;
+    }
+
+    .profile-right .description {
+        padding: 30px !important
+    }
+
+    #profile form {
+        padding: 0px 0px;
+    }
+
+    .sprate-form {
+        grid-template-columns: 12fr;
+        grid-gap: 0rem;
+    }
+
+    #profile form .sprate {
+        grid-gap: 0rem;
+    }
+
+    #profile .tab-pane .btn-info {
+        padding: 10px 0px;
+        width: 100%;
+    }
+
+    .avatar-upload .avatar-edit {
+        left: 183px !important;
+    }
+    
+
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
